@@ -22,3 +22,10 @@ echo $message
 
 # To Print The message As it is
 echo "$message"
+
+# Const Variables
+readonly GIT_USERNAME="santoshvandari"
+
+# Storing variable values 
+COMPUTER_HOSTNAME=$(hostname)
+echo $COMPUTER_HOSTNAME
