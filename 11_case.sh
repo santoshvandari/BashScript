@@ -6,6 +6,7 @@ a) Addition
 b) Difference
 c) Multiplication
 d) Division
+random) Modulas
 Enter Your Choice(a,b,c,d): "
 
 # User Choice
@@ -20,6 +21,7 @@ case $choice in
     b) echo "Subtraction: $(($num1-$num2))";;
     c) echo "Multiplicatiion: $(($num1*$num2))";;
     d) echo "Division: $(($num1/$num2))";;
+    random) echo "Modulas : $(($num1%$num2))";;
     *) echo "Invalid Option Selection"
 
 
